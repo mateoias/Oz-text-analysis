@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang=en-us>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Data Visualization Site</title>
+    <!-- <link rel="stylesheet" href="Data.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-bran" href="index.html">Oz Text Analysis Project</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto ">
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Word Clouds
+                    </a>
+                    <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+
+                    <a class="dropdown-item" href="common_word_cloud.html">word frequency cloud</a>
+                    <a class="dropdown-item" href="sentiment_word_cloud.html">word sentiment cloud</a>
+            
+                </li>
+
+                <li class="nav-item ">
+                    <a class="nav-link " href="OZ_Comparison.html">Sentiment Comparison</a>
+                </li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="OZ_data.html">Data</a>
+                </li>
+
+
+        </div>
+        </ul>
+        </div>
+    </nav>
+<div class="p-3 mb-2 bg-primary text-white">
+
+<div class="container mb-2 mt-4">
+    <!--Grid row-->
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-6">
+
+            <p> This project is a text analysis of the first two Oz books by Frank L. Baum.
+                It uses the tidytext framework in R developed by
+                 Julia Silge and David Robinson. For more information see their work   
+                <a href = "https://www.tidytextmining.com/index.html" 
+                target= "_blank"text-danger class ="stretched-link text-white" >
+                Text Moning with R</a>
+            </p>
+            <p> The word data for the graphs can be found at the <strong> Data </strong>link above.
+                 It includes the total count of all of the content words (nouns,
+                 verbs, adjectives etc) from the texts with the function words (article, prepositions, etc) 
+                 removed. The texts were taken from Project Gutenberg.</p>
+            <p> The Sentiment Analysis tracks the positive and negative sentiments of the text over time. 
+                     The sentiment is graphed against the plot line at different intervals
+                    (every 10 lines, every 50 lines and every 100 lines).</p>
+            <p> The word cloud graphs include the most common words in the two texts and also 
+                    a cloud showing the most common positive and negative words. Enjoy the site.
+            </p>
+
+            <img src="OZ_plots/Land_of_Oz_Cover.jpg" class="img-fluid" alt="book cover"
+            width="200" height="200">
+        </div>
+        <div class="col-md-6">
+            <img src="OZ_plots/wizard_of_Oz_Cover.jpg" class=
+            "img-fluid mb-2" alt="book cover">
+        </div>
+    </div>
+</div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+</div>
+</body>
+
+</html>
