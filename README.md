@@ -3,3 +3,12 @@
 * The analysis includes word frequencies and a sentiment analysis which plots the sentiment vs the plot of the text at different increments. 
 * The project includes the use of Bootstrap to create a responsive web page of the results.To view the results.
 * https://mateoias.github.io/Oz-text-analysis/index.html
+
+### Tools/Packages Used:
+*Conda R environment
+* tidytext
+* sentiment dataset
+* ggplot
+* wordcloud
+* pandas
+* VS code
