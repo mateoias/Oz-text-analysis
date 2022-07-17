@@ -6,7 +6,7 @@
 * https://mateoias.github.io/Oz-text-analysis/index.html
 
 ### Tools/Packages Used:
-*Conda R environment
+* Conda R environment
 * tidytext
 * sentiment dataset
 * ggplot
