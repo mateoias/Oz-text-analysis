@@ -17,7 +17,7 @@
 ## What is the pattern of positive and negative sentiment in the novel over the course of the plot? 
 ### This is a graph of the word sentiment in *The Wizard of Oz* and *The Land of Oz*. Each bar represents the relative positive/negative sentiment over a span of fifty lines of the text.
 
-![Sentiment Plot] (https://github.com/mateoias/Oz-text-analysis/blob/master/OZ_plots/sentiment_50_plot.jpg)
+![Sentiment Plot](https://github.com/mateoias/Oz-text-analysis/blob/master/OZ_plots/sentiment_50_plot.jpg)
 
 ## What types of vocabulary does the author use to show sentiment and what are the most common words?
 ### This word cloud shows the sentiments of the 100 most common words in the two texts. The sentiment is shown with negative words at the top and positive words at the bottom. The relative frequency of the words in the text is shown by their size.
