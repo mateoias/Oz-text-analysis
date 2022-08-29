@@ -19,7 +19,7 @@
 ![Sentiment Plot 50 lines](https://github.com/mateoias/Oz-text-analysis/blob/master/OZ_plots/sentiment_50_plot.jpg)
 
 ### In order to smooth out the graph we can plot a point for every 100 lines of text instead.
-![Sentiment Plot 100 lines](https://github.com/mateoias/Oz-text-analysis/blob/master/OZ_plots/sentiment_100_plot.jpg)
+![Sentiment Plot 100 lines](https://github.com/mateoias/Oz-text-analysis/blob/master/OZ_HTML/OZ_plots/sentiment_100_plot.jpg)
 
 ## What types of vocabulary does the author use to show sentiment and what are the most common words?
 ### This word cloud shows the sentiments of the 100 most common words in the two texts. The sentiment is shown with negative words at the top and positive words at the bottom. The relative frequency of the words in the text is shown by their size.
