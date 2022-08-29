@@ -16,7 +16,7 @@
 ## What is the pattern of positive and negative sentiment in the novel over the course of the plot? 
 ### This is a graph of the word sentiment in *The Wizard of Oz* and *The Land of Oz*. Each bar represents the relative positive/negative sentiment over a span of fifty lines of the text.
 
-![Sentiment Plot](https://github.com/mateoias/Oz-text-analysis/blob/master/OZ_plots/sentiment_50_plot.jpg)
+![Sentiment Plot 50 lines](https://github.com/mateoias/Oz-text-analysis/blob/master/OZ_plots/sentiment_50_plot.jpg)
 
 ### In order to smooth out the graph we can plot a point for every 100 lines of text instead.
 ![Sentiment Plot 100 lines](https://github.com/mateoias/Oz-text-analysis/blob/master/OZ_plots/sentiment_100_plot.jpg)
