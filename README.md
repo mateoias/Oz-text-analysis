@@ -2,8 +2,7 @@
 
 * This project is a text analysis of *The Wizard of Oz* and *The Marvelous Land of Oz* by Frank L. Baum. It uses the tidytext framework in R developed by Julia Silge and David Robinson for data cleaning, tokenization, word count and sentiment analysis. For more details see https://www.tidytextmining.com/.
 * The project seeks to understand the story arc and emotional tone of the books by analyzing word frequencies and plotting the sentiment of the text at  increments of 10, 50 and 100 lines of text. 
-* The project includes the use of Bootstrap to create a responsive web page of the results. To view the results go to:
-* https://mateoias.github.io/Oz-text-analysis/index.html
+* The project includes the use of Bootstrap to create a responsive web page of the results. To view the results go to: https://mateoias.github.io/Oz-text-analysis/index.html
 
 ### Tools/Packages Used:
 * Conda R environment
